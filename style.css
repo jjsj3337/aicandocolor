@@ -1,0 +1,277 @@
+body {
+font-family: 'Do Hyeon', sans-serif;
+  background-color: #a4dcde;
+}
+
+.file-upload {
+   padding : 5% 3%; 
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid 1.5px #f05f70;;
+    background-color: #000000;
+    max-width: 700px;
+    max-height: 1500px;
+    
+}
+
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+   color: #ffffff;
+ 
+    
+}
+
+.file-upload-input {
+   position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  border: 4px dashed #1FB264;
+  position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    border: dashed 5px #f05f70;
+    
+}
+
+.image-dropping,
+.image-upload-wrap:hover {
+  background-color: #35465d;
+  border: 5px dashed #ff9b51;
+}
+
+.image-title-wrap {
+ padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+color: #ffffff;
+
+}
+
+.drag-text h3 {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding:56.6% 20% 23.3% 19.8%;
+  margin-top:10.7%;   
+  line-height: 1.53;
+  text-align: center;
+   
+}
+
+.file-upload-image {
+  width: 57.3%;
+  margin: auto;
+  padding: 20px;
+}
+
+
+
+.remove-image {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.nav-distance{
+    padding: 1% 4.7%
+}
+
+.navbar-brand .na-brand{
+  width: 21.3%;
+  height: 1.3%;
+  font-weight: 900;
+
+  line-height: 1.68;
+  text-align: left;
+  color: #35465d;
+    
+}
+.anilink{
+  font-size: 29.5px;
+  line-height: 1.71;
+  text-align: center;
+  color: #f73737;
+}
+.section{
+margin-top:3%;    
+}
+
+.try-again-btn {
+ border-radius: 40px;
+    border: solid 1.5px #f05f70;
+    background-color: #f05f70;
+ 
+}
+
+
+.bar-container {
+  height: 2.7rem;
+   
+}
+
+.따뜻한 색-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #b32727;
+    
+}
+.따뜻한 색-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #fa8b8b;
+    
+}
+
+
+.차가운 색-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #519c90;
+
+}
+.차가운 색-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+ background-color: #c5db91;
+}
+
+
+
+
+
+.alltitle{
+    font-size:1.5rem;
+   
+}
+.따뜻한 색-animal-title {
+   color: #17a2b8;
+}
+.차가운 색-animal-title {
+    color: #ffc107;
+}
+
+.animal-label {
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+    color: #ffffff;
+   
+}
+#label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title{
+  
+  line-height: 1.67;
+      font-weight: 700;
+  text-align: center;
+  color: #35465d;
+    
+}
+.subtitle, .anilink{
+  line-height: 1.53;
+      font-weight: 300;
+    font-size:1.5rem;
+  text-align: center;
+  color: #ffffff;
+   
+}
+.anilink{
+          color: #f73737;
+
+}
+
+.sub-conmment{
+    line-height: 1.53;
+     font-weight: 300;
+    font-size:1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.animal-explain{
+    padding:4%;
+    font-size:1.4rem;
+}
+
+    
+.celfont{
+    font-size:1.7rem;
+}
+
+@media screen and (max-width: 600px){
+    html{
+        font-size:10px
+    }
+    .navbar-brand , .youtube-link{
+        font-size: 10rem;
+    }
+
+
+    
+    
+   
+}
+
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+/* @media screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+ */
