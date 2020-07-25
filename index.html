@@ -127,20 +127,20 @@ s.setAttribute('data-timestamp', +new Date());
             for (let i = 0; i < maxPredictions; i++) {
                 switch (prediction[i].className) {
                     case "따뜻한 색":
-                        prediction[i].className = "따뜻한 색";
+                        prediction[i].className = "num1";
                         break;
                     case "차가운 색":
-                        prediction[i].className = "차가운 색";
+                        prediction[i].className = "num2";
                         break;
                 }
             }
             switch (prediction[0].className) {
-                case "따뜻한 색":
+                case "num1":
                     resultTilte = "따뜻한 색";
                     resultKey = " \"따뜻한 느낌을 주는 색\" ";
                     resultMessage = "빨간색, 주황색, 노란색 등이 있답니다.";
                     break;
-                case "차가운 색":
+                case "num2":
                     resultTilte = "차가운 색";
                     resultKey = " \"차가운 느낌을 주는 색\" ";
                     resultMessage = "파란색, 초록색 등이 있답니다.";
@@ -162,10 +162,10 @@ s.setAttribute('data-timestamp', +new Date());
                 var labelTitle;
                 console.log(prediction[i].className);
                 switch (prediction[i].className) {
-                    case "따뜻한 색":
+                    case "num1":
                         labelTitle = "따뜻한 색";
                         break;
-                    case "차가운 색":
+                    case "num2":
                         labelTitle = "차가운 색";
                         break;
                 }
