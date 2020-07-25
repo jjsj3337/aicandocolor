@@ -152,7 +152,7 @@ margin-top:3%;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(159, 159, 181, 0.2);
+  background-color: #f2a6a6;
 }
 .num1-bar {
   position: absolute;
@@ -160,7 +160,7 @@ margin-top:3%;
   left: 0;
   height: 2rem;
   border-radius: 10px;
- background-color: rgba(138, 138, 153, 1.0);
+ background-color: #ef4d4d;
 }
 
 
@@ -171,7 +171,7 @@ margin-top:3%;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(250, 207, 242, 0.2);
+  background-color:#7ea9f2; 
 ;
 }
 .num2-bar {
@@ -180,7 +180,7 @@ margin-top:3%;
   left: 0;
   height: 2rem;
   border-radius: 10px;
- background-color: rgba(247, 158, 230, 1.0);
+ background-color: #184796;
 }
 
 
@@ -188,10 +188,10 @@ margin-top:3%;
     font-size:1.5rem;
 }
 .num1-animal-title {
-    color: #6f6f80;
+    color: #ef4d4d;
 }
 .num2-animal-title {
-    color: #fa6bdf;
+    color: #184796;
 }
 
 }
